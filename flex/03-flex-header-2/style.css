@@ -35,6 +35,7 @@ body {
   font-style: italic;
   align-items: center;
   align-self: center;
+  flex-shrink: 0;
 }
 
 button {
