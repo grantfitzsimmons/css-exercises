@@ -15,11 +15,18 @@ body {
   justify-content: center;
 }
 
+.text {
+  margin: 8px 0 16px 0;
+}
+
 .modal {
   background: white;
   width: 480px;
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+  display: flex;
+  padding: 1rem;
+  gap: 1rem;
 }
 
 .icon {
@@ -33,6 +40,18 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-shrink: 0;
+}
+
+.header {
+  font-weight: bold;
+  flex-grow: 1;
+  font-size: large;
+}
+
+.areyousure {
+  display: flex;
+  align-items: center;
 }
 
 .close-button {
